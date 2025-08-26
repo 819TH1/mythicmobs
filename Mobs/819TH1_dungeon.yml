@@ -164,13 +164,13 @@
   Damage: 15
 
 819TH1_slime_2-2:
-    Type: SLIME
-    Display: "&a&lスライム&r[200%]"
-    Health: 120
-    Damage: 8
-    Options:
-      Size: 2
-      PreventSlimeSplit: true
+  Type: SLIME
+  Display: "&a&lスライム&r[200%]"
+  Health: 120
+  Damage: 8
+  Options:
+    Size: 2
+    PreventSlimeSplit: true
 
 819TH1_fox_2-3:                    ## 2-3 ##
   Template: Azuriter_Enemy_Base
@@ -207,4 +207,5 @@
   - '<target.name> は&l<mob.name>&rに処理された'
   Skills:
   - throw{velocity=6;velocityY=10} @PIR{r=100} ~onSpawn
-  - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn 
+  - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
+  - potion{type=DARKNESS;d=60} @target ~onAttack
