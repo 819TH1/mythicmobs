@@ -64,7 +64,7 @@
 819TH1_zombie_1-1:
   Template: Azuriter_Enemy_Base
   Display: "&2&lゾンビ"
-  Health: 30
+  Health: 40
   Damage: 3
   Options:
     FollowRange: 15
