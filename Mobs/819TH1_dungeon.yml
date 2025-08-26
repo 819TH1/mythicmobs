@@ -89,18 +89,10 @@
 819TH1_skeleton_1-2:
   Template: 819TH1_skeleton_1-1
 
-819TH1_archer_1-2:
+819TH1_cow_1-2:
   Template: Azuriter_Enemy_Abstract_Generic
-  Type: SKELETON
-  Display: "&b&l射手スケルトン[100%]"
+  Type: ZOMBIE
+  Disguise: COW
+  Display: "&c&l狂牛[100%]"
   Health: 30
-  Damage: 45
-  Options:
-    FollowRange: 16
-  AIGoalSelectors:
-  - clear
-  - randomstroll
-  Equipment:
-  - BOW HAND
-  Skills:
-  - arrowvolley{a=3;s=10;v=10} @self ~onTimer:60
+  Damage: 5
