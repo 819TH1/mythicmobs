@@ -71,11 +71,13 @@
   Template: Azuriter_Enemy_Base
   Type: SKELETON
   Display: "&f&lガイコツ&r[100%]"
-  Health: 30
+  Health: 40
   Damage: 4
   
 819TH1_slime_1-1:
     Type: SLIME
-    Display: "&a&l子分スライム&r[100%]"
-    Health: 20
+    Display: "&a&lスライム&r[100%]"
+    Health: 30
     Damage: 2
+    Options:
+      Size: 2
