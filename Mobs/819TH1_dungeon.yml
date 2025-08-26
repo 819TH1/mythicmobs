@@ -97,4 +97,14 @@
   Health: 30
   Damage: 5
   Options:
-    MovementSpeed: 0.3
+    MovementSpeed: 0.25
+
+819TH1_fox_1-2:
+  Template: Azuriter_Enemy_Base
+  Type: ZOMBIE
+  Disguise: FOX
+  Display: "&u&l妖狐&r[100%]"
+  Health: 24
+  Damage: 4
+  Options:
+    MovementSpeed: 0.35
