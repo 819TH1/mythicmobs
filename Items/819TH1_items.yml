@@ -1,0 +1,7 @@
+black_sword:
+  Id: netherite_sword
+  Attributes:
+    MainHand:
+      AttackSpeed: 10% ADD
+      Damage: 25 ADD
+      MovementSpeed: -0.2 MULTIPLY_BASE
