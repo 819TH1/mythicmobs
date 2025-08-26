@@ -148,9 +148,26 @@
 819TH1_hoglin_2-1:                        ## 2-1 ##
   Template: Azuriter_Enemy_Base
   Type: HOGLIN
-  Display: "&4&lピッグ&r[100%]"
+  Display: "&c&lウリ坊&r[100%]"
   Health: 500
   Damage: 10
+  Options:
+    KnockbackResistance: 1
 
 819TH1_piglin_2-1:
   Template: 819TH1_piglin_1-3
+
+819TH1_zombie_2-2:                  ## 2-2 ##
+  Template: Azuriter_Enemy_Base
+  Display: "&2&lゾンビ&r[300%]"
+  Health: 240
+  Damage: 15
+
+819TH1_slime_2-2:
+    Type: SLIME
+    Display: "&a&lスライム&r[200%]"
+    Health: 120
+    Damage: 8
+    Options:
+      Size: 2
+      PreventSlimeSplit: true
