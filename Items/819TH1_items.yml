@@ -1,10 +1,10 @@
 819TH1_dark_sword:
   Id: netherite_sword
-  Display: '&0&l漆黒の剣'
+  Display: '&8&l漆黒の剣'
   Options:
     Unbreakable: true
   Attributes:
     MainHand:
-      AttackSpeed: 10%
+      AttackSpeed: 10
       Damage: 30
-      MovementSpeed: -0.2
+      MovementSpeed: -0.1
