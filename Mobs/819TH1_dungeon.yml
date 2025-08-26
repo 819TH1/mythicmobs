@@ -171,3 +171,35 @@
     Options:
       Size: 2
       PreventSlimeSplit: true
+
+819TH1_fox_2-3:                    ## 2-3 ##
+  Template: Azuriter_Enemy_Base
+  Type: ZOMBIE
+  Disguise: FOX
+  Display: "&5&l妖狐&r[300%]"
+  Health: 150
+  Damage: 24
+  Options:
+    MovementSpeed: 0.35
+  
+819TH1_zombie_2-4:                  ## 2-4 ##
+  Template: Azuriter_Enemy_Base
+  Display: "&l[boss]&8&l漆黒騎士&r[100%]"
+  Health: 1000
+  Damage: 40
+  Equipment:
+  - leather_helmet{color=BLACK} HEAD
+  - leather_chestplate{color=BLACK} CHEST
+  - leather_leggings{color=BLACK} LEGS
+  - leather_boots{color=BLACK} FEET
+  - netherite_sword HAND
+  BossBar:
+    Enabled: true
+    Title: '<mob.name>'
+    Range: 100
+    Color: BLACK
+    Style: SOLID
+  KillMessages:
+  - '<target.name> は&l<mob.name>&rに処理された'
+  Skills:
+  - throw{velocity=3;velocityY=3} @PIR{r=100} ~onSpawn
