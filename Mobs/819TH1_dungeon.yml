@@ -132,9 +132,12 @@
   Health: 100
   Damage: 8
 
-819TH1_blaze_1-4:                   ## 1-4 ##
+819TH1_piglinbrute_1-4:                   ## 1-4 ##
   Template: Azuriter_Enemy_Base
-  Type: BLAZE
-  Display: "&4&lピッグ&r[100%]"
-  Health: 60
-  Damage: 8
+  Type: PIGLINBRUTE
+  Display: "&6&l金の亡者&r[100%]"
+  Health: 150
+  Damage: 18
+
+819TH1_piglin_1-4:
+  Template: 819TH1_piglin_1-3
