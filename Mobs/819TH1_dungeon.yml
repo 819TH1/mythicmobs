@@ -90,7 +90,7 @@
   Template: 819TH1_skeleton_1-1
 
 819TH1_archer_1-2:
-  Template: 
+  Template: Azuriter_Enemy_Abstract_Generic
   Type: SKELETON
   Display: "&b&l射手スケルトン[100%]"
   Health: 30
