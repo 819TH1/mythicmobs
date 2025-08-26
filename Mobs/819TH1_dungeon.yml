@@ -193,6 +193,9 @@
   - leather_leggings{color=BLACK} LEGS
   - leather_boots{color=BLACK} FEET
   - netherite_sword HAND
+  Options:
+    KnockbackResistance: 1
+    MovementSpeed: 0.3
   BossBar:
     Enabled: true
     Title: '<mob.name>'
