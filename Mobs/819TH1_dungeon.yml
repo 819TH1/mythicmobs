@@ -108,3 +108,26 @@
   Damage: 4
   Options:
     MovementSpeed: 0.35
+
+819TH1_zombie_1-3:                  ## 1-3 ##
+  Template: 819TH1_zombie_1-1
+
+819TH1_cow_1-3:
+  Template: 819TH1_cow_1-2
+
+819TH1_wolf_1-3:
+  Template: Azuriter_Enemy_Base
+  Type: ZOMBIE
+  Disguise: WOLF
+  Display: "&3&lウルフ&r[100%]"
+  Health: 15
+  Damage: 6
+  Options:
+    MovementSpeed: 0.3
+
+819TH1_piglin_1-3:
+  Template: Azuriter_Enemy_Base
+  Type: PIGLIN
+  Display: "&4&lピッグ&r[100%]"
+  Health: 40
+  Damage: 4
