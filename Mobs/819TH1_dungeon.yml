@@ -61,7 +61,7 @@
 #    - addtag{t=LOW_HEALTH} @self ~onDamaged =40%
 #    - skill{s=Azuriter_Enemy_RaidBoss_操作} @trigger ~onSignal:Azuriter_Boss_Stick ?~isplayer
 
-819TH1_zombie_1-1:
+819TH1_zombie_1-1:                  ## 1-1 ##
   Template: Azuriter_Enemy_Base
   Display: "&2&lゾンビ&r[100%]"
   Health: 50
