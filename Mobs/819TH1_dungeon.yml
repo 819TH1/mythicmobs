@@ -24,7 +24,7 @@
 #    Invisible: false
 #    AttackSpeed: 1
 #    Scale: 1
-#    MovementSpeed: 0.2
+#    Movementspeed: 0.2
 #    Silent: false
 #  Modules:
 #    ThreatTable: true
@@ -96,3 +96,5 @@
   Display: "&c&l狂牛&r[100%]"
   Health: 30
   Damage: 5
+  Options:
+    MovementSpeed: 0.3
