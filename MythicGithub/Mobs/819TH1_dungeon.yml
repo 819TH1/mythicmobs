@@ -1,0 +1,23 @@
+dungeon_template:
+  Options:
+    PreventSunburn: true
+    Silent: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    PrevetItemPickup: true
+    KnockbackResistance: 1
+    NoDamageTicks: 1
+    PreventJockeyMounts: true
+    FollowRange: 100
+    MaxCombatDistance: 100
+    PreventRandomEquipment: true
+    PreventTransformation: true
+    Despawn: true
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - randomstroll
+  AITargetSelectors:
+  - players
+  Skills:
+  - setTarget @PIR{r=100;limit=1;sort=RANDOM} ~onTimer:100
