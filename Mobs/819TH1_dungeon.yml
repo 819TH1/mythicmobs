@@ -103,7 +103,7 @@
   Template: Azuriter_Enemy_Base
   Type: ZOMBIE
   Disguise: FOX
-  Display: "&u&l妖狐&r[100%]"
+  Display: "&5&l妖狐&r[100%]"
   Health: 24
   Damage: 4
   Options:
