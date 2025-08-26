@@ -90,9 +90,9 @@
   Template: 819TH1_skeleton_1-1
 
 819TH1_cow_1-2:
-  Template: Azuriter_Enemy_Abstract_Generic
+  Template: Azuriter_Enemy_Base
   Type: ZOMBIE
   Disguise: COW
-  Display: "&c&l狂牛[100%]"
+  Display: "&c&l狂牛&r[100%]"
   Health: 30
   Damage: 5
