@@ -129,5 +129,12 @@
   Template: Azuriter_Enemy_Base
   Type: PIGLIN
   Display: "&4&lピッグ&r[100%]"
-  Health: 80
+  Health: 100
+  Damage: 8
+
+819TH1_blaze_1-4:                   ## 1-4 ##
+  Template: Azuriter_Enemy_Base
+  Type: BLAZE
+  Display: "&4&lピッグ&r[100%]"
+  Health: 60
   Damage: 8
