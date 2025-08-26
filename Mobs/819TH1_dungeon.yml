@@ -63,7 +63,7 @@
 
 819TH1_zombie_1-1:
   Template: Azuriter_Enemy_Base
-  Display: "&2&lゾンビ"
+  Display: "&2&lゾンビ&r[100%]"
   Health: 50
   Damage: 3
   Options:
@@ -72,7 +72,7 @@
 819TH1_skeleton_1-1:
   Template: Azuriter_Enemy_Base
   Type: SKELETON
-  Display: "&f&lガイコツ"
+  Display: "&f&lガイコツ&r[100%]"
   Health: 30
   Damage: 4
   Options:
