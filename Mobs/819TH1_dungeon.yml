@@ -205,4 +205,4 @@
   KillMessages:
   - '<target.name> は&l<mob.name>&rに処理された'
   Skills:
-  - throw{velocity=3;velocityY=3} @PIR{r=100} ~onSpawn
+  - throw{velocity=6;velocityY=10} @PIR{r=100} ~onSpawn
