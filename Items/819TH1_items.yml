@@ -1,7 +1,10 @@
-black_sword:
+819TH1_dark_sword:
   Id: netherite_sword
+  Display: '&0&l漆黒の剣'
+  Options:
+    Unbreakable: true
   Attributes:
     MainHand:
-      AttackSpeed: 10% ADD
-      Damage: 25 ADD
-      MovementSpeed: -0.2 MULTIPLY_BASE
+      AttackSpeed: 10%
+      Damage: 30
+      MovementSpeed: -0.2
