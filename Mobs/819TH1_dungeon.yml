@@ -64,21 +64,21 @@
 819TH1_zombie_1-1:                  ## 1-1 ##
   Template: Azuriter_Enemy_Base
   Display: "&2&lゾンビ&r[100%]"
-  Health: 50
-  Damage: 3
+  Health: 90
+  Damage: 5
 
 819TH1_skeleton_1-1:
   Template: Azuriter_Enemy_Base
   Type: SKELETON
   Display: "&f&lガイコツ&r[100%]"
-  Health: 40
-  Damage: 4
+  Health: 80
+  Damage: 6
   
 819TH1_slime_1-1:
     Type: SLIME
     Display: "&a&lスライム&r[100%]"
-    Health: 30
-    Damage: 2
+    Health: 60
+    Damage: 4
     Options:
       Size: 2
       PreventSlimeSplit: true
@@ -94,8 +94,8 @@
   Type: ZOMBIE
   Disguise: COW
   Display: "&c&l狂牛&r[100%]"
-  Health: 30
-  Damage: 5
+  Health: 80
+  Damage: 9
   Options:
     MovementSpeed: 0.25
 
@@ -104,8 +104,8 @@
   Type: ZOMBIE
   Disguise: FOX
   Display: "&5&l妖狐&r[100%]"
-  Health: 24
-  Damage: 4
+  Health: 50
+  Damage: 8
   Options:
     MovementSpeed: 0.35
 
@@ -120,8 +120,8 @@
   Type: ZOMBIE
   Disguise: WOLF
   Display: "&3&lウルフ&r[100%]"
-  Health: 15
-  Damage: 6
+  Health: 40
+  Damage: 10
   Options:
     MovementSpeed: 0.3
 
@@ -129,17 +129,28 @@
   Template: Azuriter_Enemy_Base
   Type: PIGLIN
   Display: "&4&lピッグ&r[100%]"
-  Health: 100
-  Damage: 8
+  Health: 200
+  Damage: 15
 
 819TH1_piglinbrute_1-4:                   ## 1-4 ##
   Template: Azuriter_Enemy_Base
   Type: PIGLINBRUTE
   Display: "&6&l金の亡者&r[100%]"
-  Health: 200
-  Damage: 15
+  Health: 400
+  Damage: 25
   Options:
     KnockbackResistance: 1
+    MovementSpeed: 0.26
 
 819TH1_piglin_1-4:
+  Template: 819TH1_piglin_1-3
+
+819TH1_hoglin_2-1:                        ## 2-1 ##
+  Template: Azuriter_Enemy_Base
+  Type: HOGLIN
+  Display: "&4&lピッグ&r[100%]"
+  Health: 500
+  Damage: 10
+
+819TH1_piglin_2-1:
   Template: 819TH1_piglin_1-3
