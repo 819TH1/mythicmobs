@@ -5,6 +5,6 @@
     Unbreakable: true
   Attributes:
     MainHand:
-      AttackSpeed: 10
+      AttackSpeed: 10%
       Damage: 30
       MovementSpeed: -0.1
