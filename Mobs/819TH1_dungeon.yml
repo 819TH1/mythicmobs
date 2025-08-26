@@ -94,10 +94,13 @@
   Type: SKELETON
   Display: "&b&l射手スケルトン[100%]"
   Health: 30
-  Damage: 4
+  Damage: 45
   Options:
     FollowRange: 16
+  AIGoalSelectors:
+  - clear
+  - randomstroll
   Equipment:
   - BOW HAND
   Skills:
-  - arrowvolley{a=3;s=50;v=5} @Target
+  - arrowvolley{a=3;s=10;v=10} @self ~onTimer:60
