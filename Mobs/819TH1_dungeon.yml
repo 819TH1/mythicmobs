@@ -184,7 +184,7 @@
   
 819TH1_dark_knight_2-4:                  ## 2-4 ##
   Template: Azuriter_Enemy_Base
-  Display: "&l[boss]&8&l漆黒騎士&r[100%]"
+  Display: "&c[boss]&r&8&l漆黒騎士&r[100%]"
   Health: 1000
   Damage: 40
   Equipment:
@@ -196,6 +196,7 @@
   Options:
     KnockbackResistance: 1
     MovementSpeed: 0.3
+    FollowRange: 25
   BossBar:
     Enabled: true
     Title: '<mob.name>'
