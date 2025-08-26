@@ -1,7 +1,7 @@
 #### [Azuriter_Enemy_Abstract_Generic] 一般的なテンプレート  ####
-# Type: zombie
-#  Display: ""
-#  Faction: monster
+#   Type: zombie
+#   Display: ""
+#   Faction: monster
 #   Options:
 #    Collidable: true
 #    DigOutOfGround: true
@@ -22,7 +22,7 @@
 #    PreventConversion: true
 #    PreventTransformation: true
 #    Invisible: false
-#   AttackSpeed: 1
+#    AttackSpeed: 1
 #    Scale: 1
 #    MovementSpeed: 0.2
 #    Silent: false
@@ -82,3 +82,22 @@
     Options:
       Size: 2
       PreventSlimeSplit: true
+
+819TH1_zombie_1-2:                  ## 1-2 ##
+  Template: 819TH1_zombie_1-1
+
+819TH1_skeleton_1-2:
+  Template: 819TH1_skeleton_1-1
+
+819TH1_archer_1-2:
+  Template: 
+  Type: SKELETON
+  Display: "&b&l射手スケルトン[100%]"
+  Health: 30
+  Damage: 4
+  Options:
+    FollowRange: 16
+  Equipment:
+  - BOW HAND
+  Skills:
+  - shoot @target ~onTimer:60
