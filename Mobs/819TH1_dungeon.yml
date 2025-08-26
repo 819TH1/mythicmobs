@@ -207,4 +207,4 @@
   - '<target.name> は&l<mob.name>&rに処理された'
   Skills:
   - throw{velocity=6;velocityY=10} @PIR{r=100} ~onSpawn
-  - sound{s=entity.generic.explode;v=5;p=0.6} @PIR{r=100} ~onSpawn 
+  - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn 
