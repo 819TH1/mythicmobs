@@ -182,7 +182,7 @@
   Options:
     MovementSpeed: 0.35
   
-819TH1_zombie_2-4:                  ## 2-4 ##
+819TH1_dark_knight_2-4:                  ## 2-4 ##
   Template: Azuriter_Enemy_Base
   Display: "&l[boss]&8&l漆黒騎士&r[100%]"
   Health: 1000
