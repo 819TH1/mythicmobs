@@ -97,5 +97,7 @@
   Damage: 4
   Options:
     FollowRange: 16
-  Exclude:
-  - PreventVanillaDamage
+  Equipment:
+  - BOW HAND
+  Skills:
+  - arrowvolley{a=3;s=50;v=5} @Target
