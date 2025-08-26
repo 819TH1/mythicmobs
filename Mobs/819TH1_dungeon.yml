@@ -63,16 +63,16 @@
 
 819TH1_zombie_1-1:
   Template: Azuriter_Enemy_Base
-  Display: "&l&2ゾンビ"
+  Display: "&2&lゾンビ"
   Health: 50
   Damage: 3
   Options:
     FollowRange: 15
 
 819TH1_skeleton_1-1:
-  Template: Azuriter_Enemy_Abstract_Generic
+  Template: Azuriter_Enemy_Base
   Type: SKELETON
-  Display: "&f&lスケルトン"
+  Display: "&f&lガイコツ"
   Health: 30
   Damage: 4
   Options:
