@@ -66,8 +66,6 @@
   Display: "&2&lゾンビ&r[100%]"
   Health: 50
   Damage: 3
-  Options:
-    FollowRange: 15
 
 819TH1_skeleton_1-1:
   Template: Azuriter_Enemy_Base
@@ -75,5 +73,9 @@
   Display: "&f&lガイコツ&r[100%]"
   Health: 30
   Damage: 4
-  Options:
-    FollowRange: 15
+  
+819TH1_slime_1-1:
+    Type: SLIME
+    Display: "&a&l子分スライム&r[100%]"
+    Health: 20
+    Damage: 2
