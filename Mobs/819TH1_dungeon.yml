@@ -61,20 +61,20 @@
 #    - addtag{t=LOW_HEALTH} @self ~onDamaged =40%
 #    - skill{s=Azuriter_Enemy_RaidBoss_操作} @trigger ~onSignal:Azuriter_Boss_Stick ?~isplayer
 
-819TH1_zombie_1-1:                  ## 1-1 ##
+819TH1_zombie_100:                  
   Template: Azuriter_Enemy_Base
   Display: "&2&lゾンビ&r[100%]"
   Health: 90
   Damage: 5
 
-819TH1_skeleton_1-1:
+819TH1_skeleton_100:
   Template: Azuriter_Enemy_Base
   Type: SKELETON
   Display: "&f&lガイコツ&r[100%]"
   Health: 80
   Damage: 6
   
-819TH1_slime_1-1:
+819TH1_slime_100:
     Type: SLIME
     Display: "&a&lスライム&r[100%]"
     Health: 60
@@ -83,13 +83,7 @@
       Size: 2
       PreventSlimeSplit: true
 
-819TH1_zombie_1-2:                  ## 1-2 ##
-  Template: 819TH1_zombie_1-1
-
-819TH1_skeleton_1-2:
-  Template: 819TH1_skeleton_1-1
-
-819TH1_cow_1-2:
+819TH1_cow_100:
   Template: Azuriter_Enemy_Base
   Type: ZOMBIE
   Disguise: COW
@@ -99,7 +93,7 @@
   Options:
     MovementSpeed: 0.25
 
-819TH1_fox_1-2:
+819TH1_fox_100:
   Template: Azuriter_Enemy_Base
   Type: ZOMBIE
   Disguise: FOX
@@ -109,13 +103,7 @@
   Options:
     MovementSpeed: 0.35
 
-819TH1_zombie_1-3:                  ## 1-3 ##
-  Template: 819TH1_zombie_1-1
-
-819TH1_cow_1-3:
-  Template: 819TH1_cow_1-2
-
-819TH1_wolf_1-3:
+819TH1_wolf_100:
   Template: Azuriter_Enemy_Base
   Type: ZOMBIE
   Disguise: WOLF
@@ -125,14 +113,14 @@
   Options:
     MovementSpeed: 0.3
 
-819TH1_piglin_1-3:
+819TH1_piglin_100:
   Template: Azuriter_Enemy_Base
   Type: PIGLIN
   Display: "&4&lピッグ&r[100%]"
   Health: 200
   Damage: 15
 
-819TH1_piglinbrute_1-4:                   ## 1-4 ##
+819TH1_piglinbrute_100:     
   Template: Azuriter_Enemy_Base
   Type: PIGLINBRUTE
   Display: "&6&l金の亡者&r[100%]"
@@ -142,10 +130,7 @@
     KnockbackResistance: 1
     MovementSpeed: 0.26
 
-819TH1_piglin_1-4:
-  Template: 819TH1_piglin_1-3
-
-819TH1_hoglin_2-1:                        ## 2-1 ##
+819TH1_hoglin_100:         
   Template: Azuriter_Enemy_Base
   Type: HOGLIN
   Display: "&c&lウリ坊&r[100%]"
@@ -154,35 +139,25 @@
   Options:
     KnockbackResistance: 1
 
-819TH1_piglin_2-1:
-  Template: 819TH1_piglin_1-3
-
-819TH1_zombie_2-2:                  ## 2-2 ##
-  Template: Azuriter_Enemy_Base
+819TH1_zombie_300:  
+  Template: 819TH1_zombie_100
   Display: "&2&lゾンビ&r[300%]"
   Health: 240
   Damage: 15
 
-819TH1_slime_2-2:
-  Type: SLIME
+819TH1_slime_200:
+  Template: 819TH1_slime_100
   Display: "&a&lスライム&r[200%]"
   Health: 120
   Damage: 8
-  Options:
-    Size: 2
-    PreventSlimeSplit: true
 
-819TH1_fox_2-3:                    ## 2-3 ##
-  Template: Azuriter_Enemy_Base
-  Type: ZOMBIE
-  Disguise: FOX
+819TH1_fox_300:        
+  Template: 819TH1_fox_100
   Display: "&5&l妖狐&r[300%]"
   Health: 150
   Damage: 24
-  Options:
-    MovementSpeed: 0.35
   
-819TH1_dark_knight_2-4:                  ## 2-4 ##
+819TH1_dark_knight_100:        
   Template: Azuriter_Enemy_Base
   Display: "&c[boss]&r&8&l漆黒騎士&r[100%]"
   Health: 1000
