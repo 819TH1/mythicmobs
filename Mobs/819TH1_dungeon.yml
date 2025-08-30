@@ -157,7 +157,7 @@
   Health: 150
   Damage: 24
   
-819TH1_dark_knight_100:        
+819TH1_dark_knight_100_boss:        
   Template: Azuriter_Enemy_Base
   Display: "&c[boss]&r&8&l漆黒騎士&r[100%]"
   Health: 1000
@@ -185,7 +185,7 @@
   - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
   - potion{type=DARKNESS;d=60} @target ~onAttack
 
-819TH1_witch_100:   
+819TH1_witch_100_boss:   
   Template: Azuriter_Enemy_Base
   Type: WITCH
   Display: "&c[boss]&r&5教授&l&r[100%]"
@@ -201,8 +201,6 @@
     Range: 100
     Color: WHITE
     Style: SOLID
-  KillMessages:
-  - '<target.name> は&l<mob.name>&rに処理された'
   Skills:
   - throw{velocity=6;velocityY=10} @PIR{r=100} ~onSpawn
   - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
