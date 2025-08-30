@@ -8,4 +8,3 @@
     duration=60;
   } @target
   - delay 160
-  - skill{s=819TH1_witch_skill1} @self

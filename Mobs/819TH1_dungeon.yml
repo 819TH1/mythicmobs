@@ -188,7 +188,7 @@
 819TH1_witch_100_boss:   
   Template: Azuriter_Enemy_Base
   Type: WITCH
-  Display: "&c[boss]&r&5教授&l&r[100%]"
+  Display: "&c[boss]&r&5&l教授&l&r[100%]"
   Health: 2500
   Damage: 25
   Options:
@@ -199,14 +199,10 @@
     Enabled: true
     Title: '<mob.name>'
     Range: 100
-    Color: WHITE
+    Color: PURPLE
     Style: SOLID
-  AIGoalSelector:
-  - clear
-  - meleeattack
-  - randomstroll
   Skills:
   - throw{velocity=6;velocityY=10} @PIR{r=100} ~onSpawn
   - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
   - potion{type=DARKNESS;d=60} @target ~onAttack
-  - skill{s=819TH1_witch_skill1} @self ~onSpawn  
+  - skill{s=819TH1_witch_skill1} @self ~onTimer:120
