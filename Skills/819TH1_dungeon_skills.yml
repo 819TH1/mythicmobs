@@ -2,7 +2,7 @@
   Skills:
   - projectile{
     ot=[
-      - e:p{p=flame;amount=40;speed=2} @origin
+      - e:p{p=flame;amount=40;speed=2;hS=0;vS=0} @origin
     ];
     oh=[
       - damage{amount=30}
