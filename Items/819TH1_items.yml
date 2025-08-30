@@ -1,8 +1,11 @@
 819TH1_dark_sword:
   Id: netherite_sword
   Display: '&8&l漆黒の剣'
+  Group: Melee-Weapon
   Options:
     Unbreakable: true
+  ItemUpdater:
+    Version: 1
   Attributes:
     MainHand:
       AttackSpeed: 10%
