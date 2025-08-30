@@ -205,4 +205,4 @@
   - throw{velocity=6;velocityY=10} @PIR{r=100} ~onSpawn
   - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
   - potion{type=DARKNESS;d=60} @target ~onAttack
-  - skill{s=819TH1_witch_skill1} @self ~onTimer:120
+  - skill{s=819TH1_witch_skill1} @target ~onTimer:120
