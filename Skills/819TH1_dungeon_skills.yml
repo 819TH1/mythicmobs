@@ -1,0 +1,11 @@
+819TH1_witch_skill1:
+  Skills:
+  - projectile{
+    ot=[
+      - e:ps{p=flame;c=#ff1414;a=60;r=3;speed=1} @origin{yoffset=1}
+    ];
+    oh=[- damage{amount=15}]
+    duration=60;
+  } @target
+  - delay 160
+  - skill{s=819TH1_witch_skill1} @self

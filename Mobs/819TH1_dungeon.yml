@@ -161,7 +161,7 @@
   Template: Azuriter_Enemy_Base
   Display: "&c[boss]&r&8&l漆黒騎士&r[100%]"
   Health: 1000
-  Damage: 40
+  Damage: 30
   Equipment:
   - leather_helmet{color=BLACK} HEAD
   - leather_chestplate{color=BLACK} CHEST
@@ -184,3 +184,27 @@
   - throw{velocity=6;velocityY=10} @PIR{r=100} ~onSpawn
   - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
   - potion{type=DARKNESS;d=60} @target ~onAttack
+
+  819TH1_witch_100:        
+  Template: Azuriter_Enemy_Base
+  Type: WITCH
+  Display: "&c[boss]&r&5教授&l&r[100%]"
+  Health: 2500
+  Damage: 25
+  Options:
+    KnockbackResistance: 1
+    MovementSpeed: 0.25
+    FollowRange: 25
+  BossBar:
+    Enabled: true
+    Title: '<mob.name>'
+    Range: 100
+    Color: WHITE
+    Style: SOLID
+  KillMessages:
+  - '<target.name> は&l<mob.name>&rに処理された'
+  Skills:
+  - throw{velocity=6;velocityY=10} @PIR{r=100} ~onSpawn
+  - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
+  - potion{type=DARKNESS;d=60} @target ~onAttack
+  - skill{s=819TH1_witch_skill1} ~onSpawn 
