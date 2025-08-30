@@ -3,7 +3,7 @@
   - e:ps{color=#ff1414;a=200;r=2} @forward{f=-2;y=2}
   - delay 20
   - projectile{ot=[
-      - e:p{p=flame;amount=40;speed=0;hS=0.3;vS=0.3} @origin
+      - e:p{p=explosion;amount=3;speed=0;hS=0.3;vS=0.3} @origin
     ];
    oh=[
       - damage{amount=30}
