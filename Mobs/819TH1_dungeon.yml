@@ -185,7 +185,7 @@
   - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
   - potion{type=DARKNESS;d=60} @target ~onAttack
 
-  819TH1_witch_100:        
+819TH1_witch_100:   
   Template: Azuriter_Enemy_Base
   Type: WITCH
   Display: "&c[boss]&r&5教授&l&r[100%]"
