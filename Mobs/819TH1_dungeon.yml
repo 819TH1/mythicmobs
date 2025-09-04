@@ -227,4 +227,5 @@
     Style: SOLID
   Skills:
   - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
-  - skill{s=819TH1_military_settler_skill1} @target ~onAttack 
+  - skill{s=819TH1_military_settler_skill1} @target ~onAttack
+  - skill{s=819TH1_military_settler_skill2} @self ~onDamaged 0.05

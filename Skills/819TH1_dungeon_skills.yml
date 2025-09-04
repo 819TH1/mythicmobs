@@ -22,7 +22,15 @@
       - e:p{p=sweep_attack;amount=5;speed=0;hS=0.3;vS=0.3} @origin
     ];
    oh=[
-      - damage{amount=<caster.damage>}
+      - damage{a=<caster.damage>}
       - sound{s=entity.player.attack.sweep;p=1;v=2} @PIR{r=20}
    ];
    duration=40;v=15;i=1;hR=1;vR=1;hnp=true}
+
+819TH1_military_settler_skill2:
+  Skills:
+  - blockWave{m=REDSTONE_BLOCK;r=5;d=30;v=0} @selfLocation
+  - delay 20
+  - e:p{c=#2a2c31;a=200;r=5} @selfLocation
+  - sound{s=entity.generic.explode;p=1;v=1} @PIR{r=15}
+  - damagePercent{p=0.9;c=true} @PIR{r=5}
