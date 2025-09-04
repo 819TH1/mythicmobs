@@ -204,3 +204,27 @@
   - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
   - potion{type=DARKNESS;d=60} @target ~onAttack
   - skill{s=819TH1_witch_skill1} @target ~onTimer:120
+
+819TH1_military_settler_100_boss:        
+  Template: Azuriter_Enemy_Base
+  Display: "&c[boss]&r&7&l屯田兵&r[100%]"
+  Health: 4000
+  Damage: 15
+  Equipment:
+  - leather_helmet{color=#808080} HEAD
+  - leather_chestplate{color=#808080} CHEST
+  - leather_leggings{color=#808080} LEGS
+  - leather_boots{color=#808080} FEET
+  Options:
+    KnockbackResistance: 1
+    MovementSpeed: 0.25
+    FollowRange: 25
+  BossBar:
+    Enabled: true
+    Title: '<mob.name>'
+    Range: 100
+    Color: GLAY
+    Style: SOLID
+  Skills:
+  - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
+  - skill{s=819TH1_military_settler_skill1} @forward{f=1}

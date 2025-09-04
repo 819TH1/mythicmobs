@@ -1,6 +1,6 @@
 819TH1_witch_skill1:
   Skills:
-  - sound{s=entity.allay.ambient_with_item;p=1.2;v=2} @PIR{r=100} ~onSpawn
+  - sound{s=entity.allay.ambient_with_item;p=1.2;v=2} @PIR{r=20}
   - e:ps{color=#ff1414;a=200;r=2} @forward{f=-2;y=2}
   - delay 20
   - projectile{ot=[
@@ -10,3 +10,21 @@
       - damage{amount=<caster.damage>}
    ];
    duration=100;v=15;i=1;hR=1;vR=1;hnp=true}
+
+819TH1_military_settler_skill1:
+  TargetConditions:
+    - distance{d=1to10} true
+  Skills:
+  - sound{s=entity.blaze.hurt;p=1.2;v=2} @PIR{r=20}
+  - e:ps{color=#808080;a=200;r=2} @forward{f=-2;y=2}
+  - delay 10
+  - projectile{ot=[
+      - e:p{p=sweep_attack;amount=3;speed=0;hS=0.3;vS=0.3} @origin
+    ];
+   oh=[
+      - damage{amount=<caster.damage>}
+      - sound{s=entity.player.attack.sweep;p=1;v=2} @PIR{r=20}
+   ];
+   duration=40;v=10;i=1;hR=1;vR=1;hnp=true}
+   - delay 60
+   - skill{s=819TH1_military_settler_skill1}
