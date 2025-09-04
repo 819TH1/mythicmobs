@@ -1,5 +1,6 @@
 819TH1_witch_skill1:
   Skills:
+  - sound{s=entity.allay.ambient_with_item;p=1.2;v=2} @PIR{r=100} ~onSpawn
   - e:ps{color=#ff1414;a=200;r=2} @forward{f=-2;y=2}
   - delay 20
   - projectile{ot=[
