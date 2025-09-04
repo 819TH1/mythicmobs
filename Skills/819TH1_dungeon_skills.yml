@@ -7,6 +7,6 @@
       - e:p{p=explosion;amount=3;speed=0;hS=0.3;vS=0.3} @origin
     ];
    oh=[
-      - damage{amount=30}
+      - damage{amount=<caster.damage>}
    ];
    duration=100;v=15;i=1;hR=1;vR=1;hnp=true}

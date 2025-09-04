@@ -189,7 +189,7 @@
   Type: WITCH
   Display: "&c[boss]&r&5&l教授&l&r[100%]"
   Health: 2500
-  Damage: 25
+  Damage: 40
   Options:
     KnockbackResistance: 1
     MovementSpeed: 0.25
