@@ -8,4 +8,4 @@
    oh=[
       - damage{amount=30}
    ];
-   duration=60;v=10;i=1;hR=1;vR=1;hnp=true}
+   duration=100;v=15;i=1;hR=1;vR=1;hnp=true}
