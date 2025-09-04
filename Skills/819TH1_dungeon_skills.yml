@@ -26,5 +26,3 @@
       - sound{s=entity.player.attack.sweep;p=1;v=2} @PIR{r=20}
    ];
    duration=40;v=10;i=1;hR=1;vR=1;hnp=true}
-   - delay 60
-   - skill{s=819TH1_military_settler_skill1}
