@@ -217,8 +217,8 @@
   - leather_boots{color=#808080} FEET
   Options:
     KnockbackResistance: 1
-    MovementSpeed: 0.25
-    FollowRange: 25
+    MovementSpeed: 0.35
+    FollowRange: 30
   BossBar:
     Enabled: true
     Title: '<mob.name>'
@@ -227,4 +227,4 @@
     Style: SOLID
   Skills:
   - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
-  - skill{s=819TH1_military_settler_skill1} @forward{f=2} ~onAttack 
+  - skill{s=819TH1_military_settler_skill1} @target ~onAttack 
