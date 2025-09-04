@@ -19,10 +19,10 @@
   - e:ps{color=#808080;a=200;r=2} @forward{f=-2;y=2}
   - delay 10
   - projectile{ot=[
-      - e:p{p=sweep_attack;amount=3;speed=0;hS=0.3;vS=0.3} @origin
+      - e:p{p=sweep_attack;amount=5;speed=0;hS=0.3;vS=0.3} @origin
     ];
    oh=[
       - damage{amount=<caster.damage>}
       - sound{s=entity.player.attack.sweep;p=1;v=2} @PIR{r=20}
    ];
-   duration=40;v=10;i=1;hR=1;vR=1;hnp=true}
+   duration=40;v=15;i=1;hR=1;vR=1;hnp=true}

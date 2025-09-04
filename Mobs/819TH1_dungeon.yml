@@ -223,7 +223,7 @@
     Enabled: true
     Title: '<mob.name>'
     Range: 100
-    Color: GLAY
+    Color: GREEN
     Style: SOLID
   Skills:
   - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
