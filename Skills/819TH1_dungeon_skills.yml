@@ -64,3 +64,9 @@
   Skills:
   - pull{v=6;to=true} @PIR{r=10}
   - remove @self
+
+819TH1_Cronus_skill2:
+  Skills:
+  - potion{t=BLINDNESS;d=20} @target
+  - delay 20
+  - damage{a=4*<caster.damage>;ia=true;ie=true;pi=true;is=true} @target
