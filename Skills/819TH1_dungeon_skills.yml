@@ -69,4 +69,4 @@
   Skills:
   - potion{t=BLINDNESS;d=20} @PIR{r=5}
   - delay 20
-  - damage{a=4*<caster.damage>;ia=true;ie=true;pi=true;is=true} @PIR{r=5}
+  - damage{a=4*<caster.damage>;ia=true;ie=true;pi=true;is=true} @PIR{r=10}
