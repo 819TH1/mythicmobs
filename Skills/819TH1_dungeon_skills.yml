@@ -43,6 +43,7 @@
   Conditions:
   - playerwithin{d=30} true
   Skills:
+  - message{m="&8ブラックホール"} @PIR{r=100}
   - potion{t=GLOWING;d=40} @self
   - stun{d=40} @self
   - delay 40
@@ -60,5 +61,5 @@
 
 819TH1_Cronus_skill1_mob_skill:
   Skills:
-  - pull{v=4;to=true} @PIR{r=10}
+  - pull{v=6;to=true} @PIR{r=10}
   - remove @self
