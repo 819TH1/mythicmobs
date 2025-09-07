@@ -39,15 +39,6 @@
   Skills:
   - randomskill{s=819TH1_Cronus_skill1 100} @self
 
-819TH1_Cronus_normalattack:
-  Skills:
-  - projectile{
-   oh=[
-      - damage{a=<caster.damage>;ia=true;ie=true;pi=true;is=true}
-      - sound{s=entity.player.attack.sweep;p=1;v=2} @PNO{r=20}
-   ];
-   type=ITEM;material=CLOCK;duration=40;v=10;i=1;hR=1;vR=1;hnp=true} @target
-
 819TH1_Cronus_skill1:
   Conditions:
   - playerwithin{d=30} true
