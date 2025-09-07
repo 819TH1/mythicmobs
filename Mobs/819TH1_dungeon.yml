@@ -234,11 +234,11 @@
   Template: Azuriter_Enemy_Base
   Display: "&7&lク&8&lロ&7&lノ&8&lス"
   Health: 5500
-  Damage: 100
+  Damage: 10
   Equipment:
   - spawner HEAD
   - leather_chestplate{color=#0f0000} CHEST
-  - leather_leggings{color=#152ba7} LEGS
+  - leather_leggings{color=#24dae0} LEGS
   - leather_boots{color=#0f0000} FEET
   Options:
     KnockbackResistance: 1
@@ -253,5 +253,5 @@
     Style: SOLID
   Skills:
   - potion{t=GLOWING;d=10;} @self ~onDamaged
-  - potion{t=SLOWNESS;d=10;l=5} @PIR{r=10} ~onTimer:10
+  - potion{t=SLOWNESS;d=10;l=5} @PIR{r=3} ~onTimer:10
   - healpercent{m=0.01} @self ~onDamaged
