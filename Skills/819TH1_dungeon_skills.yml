@@ -52,7 +52,7 @@
     ];
    oe=[
       - damage{a=30*<caster.damage>;pi=true;is=true} @PNO{r=5}
-      - sound{s=entity.generic.explode;p=1;v=2} @PIR{r=30}
+      - sound{s=entity.generic.explode;p=1;v=2} @PNO{r=30}
       - e:ps{color=#c01ef1;a=300;r=5} @origin
    ];
    duration=60;v=15;i=1;hR=1;vR=1;hnp=true} @target
@@ -60,6 +60,5 @@
 
 819TH1_Cronus_skill1_mob_skill:
   Skills:
-  - pull{v=5;to=true} @PIR{r=10}
-  - damage{a=0.5*<caster.damage>;ia=true;ie=true;pi=true;is=true} @PIR{r=10}
+  - pull{v=6;to=true} @PIR{r=10}
   - remove @self
