@@ -257,3 +257,4 @@
   - potion{t=GLOWING;d=10;} @self ~onDamaged
   - potion{t=SLOWNESS;d=10;l=5} @PIR{r=3} ~onTimer:10
   - healpercent{m=0.01} @self ~onDamaged
+  - skill{s=819TH1_Cronus_randomskill} @self ~onTimer:120
