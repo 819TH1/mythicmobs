@@ -41,20 +41,18 @@
 
 819TH1_Cronus_skill1:
   Skills:
+  - potion{t=GLOWING;d=40} @self
   - stun{d=40} @self
   - delay 40
   - projectile{ot=[
       - e:p{p=reverse_portal;amount=50;speed=0;hS=0.3;vS=0.3} @origin
-      - pull{v=0.3;to=true} @PIR{r=10}
+      - pull{v=1.5;to=false} @PIR{r=10}
       - damage{a=0.5*<caster.damage>;ia=true;ie=true;pi=true;is=true} @PIR{r=10}
     ];
-   oh=[
-      - damage{a=30*<caster.damage>;pi=true;is=true}
-      - sound{s=entity.generic.explode;p=1;v=2} @PIR{r=20}
-   ];
    oe=[
-      - damage{a=30*<caster.damage>;pi=true;is=true}
+      - damage{a=30*<caster.damage>;pi=true;is=true} @PIR{r=10}
       - sound{s=entity.generic.explode;p=1;v=2} @PIR{r=20}
+      - e:ps{color=#1ed5f5;a=200;r=10} @selfLocation
    ];
    duration=60;v=15;i=1;hR=1;vR=1;hnp=true} @target
    - delay 60
