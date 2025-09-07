@@ -37,17 +37,14 @@
 
 819TH1_Cronus_randomskill:
   Skills:
-  - randomskill{s=819TH1_Cronus_skill1} @self
+  - randomskill{s=819TH1_Cronus_skill1 100} @self
 
 819TH1_Cronus_skill1:
-  Conditions:
-  - hasTag{t=819TH1_Cronus_skill_use} false 
   Skills:
-  - addtag{t=819TH1_Cronus_skill_use} @self
   - stun{d=40} @self
   - delay 40
   - projectile{ot=[
-      - e:p{p=reverse_portal;amount=5;speed=0;hS=0.3;vS=0.3} @origin
+      - e:p{p=reverse_portal;amount=50;speed=0;hS=0.3;vS=0.3} @origin
       - pull{v=0.3;to=true} @PIR{r=10}
       - damage{a=0.5*<caster.damage>;ia=true;ie=true;pi=true;is=true} @PIR{r=10}
     ];
@@ -61,4 +58,3 @@
    ];
    duration=60;v=15;i=1;hR=1;vR=1;hnp=true} @target
    - delay 60
-   - removetag{t=819TH1_Cronus_skill_use} @self
