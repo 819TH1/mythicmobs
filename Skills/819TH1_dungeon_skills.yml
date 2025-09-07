@@ -47,7 +47,7 @@
   - stun{d=40} @self
   - delay 40
   - projectile{ot=[
-      - e:p{p=portal;amount=5;speed=0;hS=0.3;vS=0.3} @origin
+      - e:p{p=reverse_portal;amount=5;speed=0;hS=0.3;vS=0.3} @origin
       - pull{v=0.3;to=true} @PIR{r=10}
       - damage{a=0.5*<caster.damage>;ia=true;ie=true;pi=true;is=true} @PIR{r=10}
     ];
