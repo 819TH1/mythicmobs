@@ -40,8 +40,8 @@
   - randomskill{s=819TH1_Cronus_skill1 100} @self
 
 819TH1_Cronus_skill1:
-  TargetConditions:
-    - distance{d=1to20} true
+  Conditions:
+  - playerwithin{d=30} true
   Skills:
   - potion{t=GLOWING;d=40} @self
   - stun{d=40} @self
