@@ -245,7 +245,7 @@
   Options:
     KnockbackResistance: 1
     MovementSpeed: 0.3
-    FollowRange: 30
+    FollowRange: 50
     Invisible: true
   BossBar:
     Enabled: true
