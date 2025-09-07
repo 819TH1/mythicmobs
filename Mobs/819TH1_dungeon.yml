@@ -232,7 +232,7 @@
 
 819TH1_Cronus_100_boss:     
   Template: Azuriter_Enemy_Base
-  Display: "&7&lク&8&lロ&7&lノ&8&lス"
+  Display: "&c[boss]&7&lク&8&lロ&7&lノ&8&lス&r[100%]"
   Health: 5500
   Damage: 10
   Equipment:
@@ -254,13 +254,14 @@
     Color: BLUE
     Style: SOLID
   Skills:
+  - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
   - potion{t=SLOWNESS;d=10;l=5} @PIR{r=3} ~onTimer:10
   - healpercent{m=0.01} @self ~onDamaged
   - skill{s=819TH1_Cronus_randomskill} @self ~onTimer:120
 
 819TH1_Cronus_skill1_mob:
   Type: SILVERFISH
-  Display: '&7&lク&8&lロ&7&lノ&8&lス'
+  Display: '&c[boss]&7&lク&8&lロ&7&lノ&8&lス&r[100%]'
   Health: 100
   Damage: 0
   Options:
