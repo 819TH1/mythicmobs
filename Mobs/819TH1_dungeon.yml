@@ -233,7 +233,7 @@
 819TH1_Cronus_100_boss:     
   Template: Azuriter_Enemy_Base
   Display: "&c[boss]&7&lク&8&lロ&7&lノ&8&lス&r[100%]"
-  Health: 5500
+  Health: 5000
   Damage: 10
   Equipment:
   - spawner HEAD
