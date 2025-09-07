@@ -240,6 +240,8 @@
   - leather_chestplate{color=#0f0000} CHEST
   - leather_leggings{color=#e91b1b} LEGS
   - leather_boots{color=#0f0000} FEET
+  - CLOCK HAND
+  - CLOCK OFFHAND
   Options:
     KnockbackResistance: 1
     MovementSpeed: 0.3
