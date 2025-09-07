@@ -251,13 +251,14 @@
     Enabled: true
     Title: '<mob.name>'
     Range: 100
-    Color: BLUE
+    Color: PURPLE
     Style: SOLID
   Skills:
   - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
   - potion{t=SLOWNESS;d=10;l=5} @PIR{r=3} ~onTimer:10
   - healpercent{m=0.01} @self ~onDamaged
   - skill{s=819TH1_Cronus_randomskill} @self ~onTimer:120
+  - skill{s=819TH1_Cronus_normalattack} @self ~onTimer:20
 
 819TH1_Cronus_skill1_mob:
   Type: SILVERFISH

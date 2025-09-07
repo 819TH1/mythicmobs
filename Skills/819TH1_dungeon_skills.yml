@@ -23,7 +23,7 @@
     ];
    oh=[
       - damage{a=<caster.damage>;ia=true;ie=true;pi=true;is=true}
-      - sound{s=entity.player.attack.sweep;p=1;v=2} @PIR{r=20}
+      - sound{s=entity.player.attack.sweep;p=1;v=1} @PIR{r=20}
    ];
    duration=40;v=15;i=1;hR=1;vR=1;hnp=true}
 
@@ -39,6 +39,16 @@
   Skills:
   - randomskill{s=819TH1_Cronus_skill1 100} @self
 
+819TH1_Cronus_normalattack:
+  Skills:
+  - projectile{ot=[
+      - e:p{p=sweep_attack;amount=5;speed=0;hS=0.3;vS=0.3} @origin
+    ];
+   oh=[
+      - damage{a=<caster.damage>;ia=true;ie=true;pi=true;is=true}
+      - sound{s=entity.player.attack.sweep;p=1;v=2} @PIR{r=20}
+   ];type=ITEM;material=CLOCK;duration=40;v=10;i=1;hR=1;vR=1;hnp=true
+  }
 819TH1_Cronus_skill1:
   Conditions:
   - playerwithin{d=30} true
@@ -54,10 +64,10 @@
     ];
    oe=[
       - damage{a=10*<caster.damage>;pi=true;is=true} @PNO{r=5}
-      - sound{s=entity.wither.break_block;v=0.05;p=0.6} @PNO{r=30}
+      - sound{s=entity.wither.break_block;v=0.15;p=0.6} @PNO{r=30}
       - e:ps{color=#c01ef1;a=300;r=5} @origin
    ];
-   duration=60;v=15;i=1;hR=1;vR=1;hp=false;hnp=false} @target
+   duration=60;v=12;i=1;hR=1;vR=1;hp=false;hnp=false} @target
    - delay 60
 
 819TH1_Cronus_skill1_mob_skill:
