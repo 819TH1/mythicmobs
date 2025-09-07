@@ -257,3 +257,24 @@
   - potion{t=SLOWNESS;d=10;l=5} @PIR{r=3} ~onTimer:10
   - healpercent{m=0.01} @self ~onDamaged
   - skill{s=819TH1_Cronus_randomskill} @self ~onTimer:120
+
+819TH1_Cronus_skill1_mob:
+  Type: SILVERFISH
+  Display: '&7&lク&8&lロ&7&lノ&8&lス'
+  Health: 100
+  Damage: 0
+  Options:
+    NoDamageTicks: 100
+    Silent: true
+    NoGravity: true
+    MovementSpeed: 0
+    NoAI: true
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    PreventBlockInfection: true
+    Invisible: true
+    Collidable: false
+    ApplyInvisibility: true
+  Skills:
+  - potion{type=INVISIBILITY;duration=2000;level=1;p=false} @self ~onSpawn
+  - skill{s=819TH1_Cronus_skill1_mob_skill} @self ~onSpawn

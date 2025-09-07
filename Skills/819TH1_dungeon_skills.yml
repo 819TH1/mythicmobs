@@ -46,13 +46,18 @@
   - delay 40
   - projectile{ot=[
       - e:p{p=reverse_portal;amount=50;speed=0;hS=0.3;vS=0.3} @origin
-      - pull{v=1.5;to=false} @PIR{r=10}
-      - damage{a=0.5*<caster.damage>;ia=true;ie=true;pi=true;is=true} @PIR{r=10}
+      - summon{t=819TH1_Cronus_skill1_mob} @origin
     ];
    oe=[
       - damage{a=30*<caster.damage>;pi=true;is=true} @PIR{r=10}
       - sound{s=entity.generic.explode;p=1;v=2} @PIR{r=20}
-      - e:ps{color=#1ed5f5;a=200;r=10} @selfLocation
+      - e:ps{color=#1ed5f5;a=300;r=10} @origin
    ];
    duration=60;v=15;i=1;hR=1;vR=1;hnp=true} @target
    - delay 60
+
+819TH1_Cronus_skill1_mob_skill:
+  Skills:
+  - pull{v=0.5;to=true} @PIR{r=10}
+  - damage{a=0.5*<caster.damage>;ia=true;ie=true;pi=true;is=true} @PIR{r=10}
+  - remove @self
