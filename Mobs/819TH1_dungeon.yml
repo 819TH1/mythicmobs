@@ -229,3 +229,29 @@
   - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
   - skill{s=819TH1_military_settler_skill1} @target ~onAttack
   - skill{s=819TH1_military_settler_skill2} @self ~onDamaged 0.05
+
+819TH1_Cronus_100_boss:     
+  Template: Azuriter_Enemy_Base
+  Display: "&7&lク&8&lロ&7&lノ&8&lス"
+  Health: 5500
+  Damage: 100
+  Equipment:
+  - spawner HEAD
+  - leather_chestplate{color=#0f0000} CHEST
+  - leather_leggings{color=#1d2a72} LEGS
+  - leather_boots{color=#0f0000} FEET
+  Options:
+    KnockbackResistance: 1
+    MovementSpeed: 0.3
+    FollowRange: 30
+    Invisible: true
+  BossBar:
+    Enabled: true
+    Title: '<mob.name>'
+    Range: 100
+    Color: BLUE
+    Style: SOLID
+  Skills:
+  - potion{t=GLOWING;d=10;} @self ~onDamaged
+  - potion{t=SLOWNESS;d=4;l=5} @PIR{r=10}
+  - healpercent{m=0.05} @self ~onDamaged
