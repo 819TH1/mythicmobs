@@ -67,6 +67,7 @@
 
 819TH1_Cronus_skill2:
   Skills:
-  - potion{t=BLINDNESS;d=20} @PIR{r=5}
+  - message{m="&6次元送り"} @PIR{r=50}
+  - potion{t=BLINDNESS;d=25} @PIR{r=5}
   - delay 20
-  - damage{a=4*<caster.damage>;ia=true;ie=true;pi=true;is=true} @PIR{r=10}
+  - damage{a=30*<caster.damage>;ia=true;ie=true;pi=true;is=true} @PIR{r=5}
