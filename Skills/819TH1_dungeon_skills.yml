@@ -33,4 +33,4 @@
   - delay 20
   - e:p{c=#2a2c31;a=200;r=5} @selfLocation
   - sound{s=entity.generic.explode;p=1;v=1} @PIR{r=15}
-  - damagePercent{p=0.9;c=true} @PIR{r=5}
+  - damagePercent{p=0.9} @PIR{r=5}
