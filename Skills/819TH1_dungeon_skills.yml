@@ -70,4 +70,4 @@
   - message{m="&6次元送り"} @PIR{r=50}
   - potion{t=BLINDNESS;d=25} @PIR{r=5}
   - delay 20
-  - damage{a=30*<caster.damage>;ia=true;ie=true;pi=true;is=true} @PIR{r=5}
+  - damage{a=25*<caster.damage>;ia=true;ie=true;pi=true;is=true} @PIR{r=5}
