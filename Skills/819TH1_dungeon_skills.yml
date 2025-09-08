@@ -48,7 +48,7 @@
   - stun{d=40} @self
   - delay 40
   - projectile{ot=[
-      - e:p{p=reverse_portal;amount=50;speed=0;hS=0.3;vS=0.3} @origin
+      - e:ps{color=#c01ef1;a=300;r=2} @origin
       - summon{t=819TH1_Cronus_skill1_mob} @origin
       - sound{s=entity.ender_dragon.growl;v=0.05;p=0.5} @PNO{r=30}
     ];
