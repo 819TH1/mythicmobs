@@ -9,5 +9,5 @@
   Attributes:
     MainHand:
       AttackSpeed: 10%
-      Damage: 45
+      Damage: 55
       MovementSpeed: -0.1
