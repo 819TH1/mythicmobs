@@ -7,10 +7,10 @@
   Options:
     Unbreakable: true
   Skills:
-  - skill{s=819TH1_star_of_conspiracy_skill1} @self ~onInteract
-  - skill{s=819TH1_star_of_conspiracy_skill5} @self ~onInteract
-  - skill{s=819TH1_star_of_conspiracy_skill6} @self ~onInteract
-  - skill{s=819TH1_star_of_conspiracy_skill7} @self ~onInteract
+  - skill{s=819TH1_star_of_conspiracy_skill1} @self ~onUse
+  - skill{s=819TH1_star_of_conspiracy_skill5} @self ~onUse
+  - skill{s=819TH1_star_of_conspiracy_skill6} @self ~onUse
+  - skill{s=819TH1_star_of_conspiracy_skill7} @self ~onUse
 
 819TH1_star_of_conspiracy_1:
   Id: nether_star
