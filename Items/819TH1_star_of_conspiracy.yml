@@ -8,7 +8,7 @@
     Unbreakable: true
   Attributes:
     OffHand:
-      MovementSpeed: 1-3% ADD
+      MovementSpeed: 1-3
   Skills:
   - skill{s=819TH1_star_of_conspiracy_skill1} @self ~onInteract
   - skill{s=819TH1_star_of_conspiracy_skill2} @self ~onInteract
