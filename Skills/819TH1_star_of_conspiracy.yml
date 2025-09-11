@@ -25,8 +25,8 @@
   - hasTag{t=819TH1_star_of_conspiracy_skill5_used} false
   Skills:
   - addtag{t=819TH1_star_of_conspiracy_skill5_used} @self
-  - takeitem{i=819TH1_star_of_conspiracy;amount=1} @self
   - giveitem{i=819TH1_star_of_conspiracy_1} @self
+  - remove @self
 
 819TH1_star_of_conspiracy_skill6:
   Conditions:
@@ -34,8 +34,8 @@
   - hasTag{t=819TH1_star_of_conspiracy_skill6_used} false
   Skills:
   - addtag{t=819TH1_star_of_conspiracy_skill6_used} @self
-  - takeitem{i=819TH1_star_of_conspiracy;amount=1} @self
-  - giveitem{i=819TH1_star_of_conspiracy_2} @self
+  - giveitem{i=819TH1_star_of_conspiracy_1} @self
+  - remove @self
 
 819TH1_star_of_conspiracy_skill7:
   Conditions:
@@ -43,5 +43,5 @@
   - hasTag{t=819TH1_star_of_conspiracy_skill7_used} false
   Skills:
   - addtag{t=819TH1_star_of_conspiracy_skill7_used} @self
-  - takeitem{i=819TH1_star_of_conspiracy;amount=1} @self
-  - giveitem{i=819TH1_star_of_conspiracy_3} @self
+  - giveitem{i=819TH1_star_of_conspiracy_1} @self
+  - remove @self
