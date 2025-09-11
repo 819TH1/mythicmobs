@@ -4,7 +4,6 @@
   Lore:
   - '&7不穏な輝きを放つ星屑'
   - '&7持つ者の選択に&5不可解な力&7を与える'
-  Group: 'Melee-Weapon'
   Options:
     Unbreakable: true
   Skills:
