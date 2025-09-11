@@ -8,7 +8,22 @@
     Unbreakable: true
   Attributes:
     OffHand:
-      MovementSpeed: 0.01-0.12
+      MovementSpeed: 0.2
+  Skills:
+  - skill{s=819TH1_star_of_conspiracy_skill1} @self ~onInteract
+  - skill{s=819TH1_star_of_conspiracy_skill2} @self ~onInteract
+
+819TH1_star_of_conspiracy2:
+  Id: nether_star
+  Display: '&8&l陰&0&l謀&8&lの&7&l星'
+  Lore:
+  - '&7不穏な輝きを放つ星屑'
+  - '&7持つ者の選択に&5不可解な力&7を与える'
+  Options:
+    Unbreakable: true
+  Attributes:
+    OffHand:
+      MovementSpeed: 0.2 ADD
   Skills:
   - skill{s=819TH1_star_of_conspiracy_skill1} @self ~onInteract
   - skill{s=819TH1_star_of_conspiracy_skill2} @self ~onInteract
