@@ -1,0 +1,13 @@
+819TH1_star_of_conspiracy_skill1:
+  Conditions:
+  - hasTag{t=819TH1_star_of_conspiracy_skill1_use} false 
+  Skills:
+  - setVar{k=skill.speed;a="0";t=INTEGER} @self
+  - addtag{t=819TH1_star_of_conspiracy_skill1_use} @self
+
+819TH1_star_of_conspiracy_skill2:
+  Conditions:
+  - hasTag{t=819TH1_star_of_conspiracy_skill2_use} false 
+  Skills:
+  - setVar{k=skill.speed;a="<random.0.001to0.012>";t=INTEGER} @self
+  - addtag{t=819TH1_star_of_conspiracy_skill2_use} @self

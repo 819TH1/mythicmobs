@@ -1,5 +1,14 @@
 819TH1_star_of_conspiracy:
   Id: nether_star
   Display: '&8&l陰&0&l謀&8&lの&7&l星'
+  Lore:
+  - '&7不穏な輝きを放つ星屑'
+  - '&7持つ者の選択に&5不可解な力&7を与える'
   Options:
     Unbreakable: true
+  Attributes:
+    OffHand:
+      MovementSpeed: <skill.var.speed> ADD
+  Skills:
+  - skill{s=819TH1_star_of_conspiracy_skill1} @self ~onHold
+  - skill{s=819TH1_star_of_conspiracy_skill2} @self ~onInteract
