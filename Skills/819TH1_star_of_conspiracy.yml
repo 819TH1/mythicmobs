@@ -2,12 +2,46 @@
   Conditions:
   - hasTag{t=819TH1_star_of_conspiracy_skill1_use} false 
   Skills:
-  - setVar{k=caster.speed;v=0;t=FLOAT} @self
+  - randomskill{s=819TH1_star_of_conspiracy_skill2,819TH1_star_of_conspiracy_skill3,819TH1_star_of_conspiracy_skill4} @self
   - addtag{t=819TH1_star_of_conspiracy_skill1_use} @self
+  - sound{s=block.anvil.use;p=1;v=0.5} @self
+  - message{m='&lスキルを習得した'} @self
 
 819TH1_star_of_conspiracy_skill2:
-  Conditions:
-  - hasTag{t=819TH1_star_of_conspiracy_skill2_use} false 
   Skills:
-  - setVar{k=caster.speed;v=<random.0.001to0.012>;t=FLOAT} @self
-  - addtag{t=819TH1_star_of_conspiracy_skill2_use} @self
+  - addtag{t=819TH1_star_of_conspiracy_skill5_use} @self
+
+819TH1_star_of_conspiracy_skill3:
+  Skills:
+  - addtag{t=819TH1_star_of_conspiracy_skill6_use} @self
+
+819TH1_star_of_conspiracy_skill4:
+  Skills:
+  - addtag{t=819TH1_star_of_conspiracy_skill7_use} @self
+
+819TH1_star_of_conspiracy_skill5:
+  Conditions:
+  - hasTag{t=819TH1_star_of_conspiracy_skill5_use} true
+  - hasTag{t=819TH1_star_of_conspiracy_skill5_used} false
+  Skills:
+  - addtag{t=819TH1_star_of_conspiracy_skill5_used} @self
+  - takeitem{i=819TH1_star_of_conspiracy;amount=1} @self
+  - giveitem{i=819TH1_star_of_conspiracy_1} @self
+
+819TH1_star_of_conspiracy_skill6:
+  Conditions:
+  - hasTag{t=819TH1_star_of_conspiracy_skill6_use} true
+  - hasTag{t=819TH1_star_of_conspiracy_skill6_used} false
+  Skills:
+  - addtag{t=819TH1_star_of_conspiracy_skill6_used} @self
+  - takeitem{i=819TH1_star_of_conspiracy;amount=1} @self
+  - giveitem{i=819TH1_star_of_conspiracy_2} @self
+
+819TH1_star_of_conspiracy_skill7:
+  Conditions:
+  - hasTag{t=819TH1_star_of_conspiracy_skill7_use} true
+  - hasTag{t=819TH1_star_of_conspiracy_skill7_used} false
+  Skills:
+  - addtag{t=819TH1_star_of_conspiracy_skill7_used} @self
+  - takeitem{i=819TH1_star_of_conspiracy;amount=1} @self
+  - giveitem{i=819TH1_star_of_conspiracy_3} @self
