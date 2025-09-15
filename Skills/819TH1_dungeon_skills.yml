@@ -75,6 +75,6 @@
 
 819TH1_Cronus_skill3:
   Skills:
-  - potion{t=SLOW;d=10;l=5} @PIR{r=30}
   - message{m="<mob.name> &lスタン"} @PIR{r=50}
   - sound{s=block.anvil.place;p=1;v=1} @PIR{r=30}
+  - potion{t=SLOW;d=60;l=7} @PIR{r=30}
