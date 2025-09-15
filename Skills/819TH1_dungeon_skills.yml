@@ -45,7 +45,7 @@
   Conditions:
   - playerwithin{d=30} true
   Skills:
-  - message{m="&8ブラックホール"} @PIR{r=100}
+  - message{m="[<mob.name>]&8ブラックホール"} @PIR{r=100}
   - potion{t=GLOWING;d=40} @self
   - stun{d=40} @self
   - delay 40
@@ -69,7 +69,11 @@
 
 819TH1_Cronus_skill2:
   Skills:
-  - message{m="&7次元送り"} @PIR{r=50}
+  - message{m="[<mob.name>]&7次元送り"} @PIR{r=50}
   - potion{t=BLINDNESS;d=60} @PIR{r=5}
   - delay 20
-  - damage{a=25*<caster.damage>;ia=true;ie=true;pi=true;is=true} @PIR{r=5}
+
+819TH1_Cronus_skill3:
+  Skills:
+  - potion{t=SLOW;d=10;l=5} @PIR{r=30}
+  - message{m="[<mob.name>]&lスタン"} @PIR{r=100}

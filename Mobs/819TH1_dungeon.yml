@@ -253,6 +253,8 @@
     Range: 100
     Color: PURPLE
     Style: SOLID
+  KillMessages:
+  - '&7<target.name>は歪んだ時空へ墜ちた'
   Skills:
   - sound{s=block.end_gateway.spawn;p=0.6;v=2} @PIR{r=100} ~onSpawn
   - potion{t=SLOWNESS;d=10;l=5} @PIR{r=3} ~onTimer:10
