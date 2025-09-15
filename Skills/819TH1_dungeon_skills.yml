@@ -55,7 +55,7 @@
       - sound{s=entity.ender_dragon.growl;v=0.05;p=0.5} @PNO{r=30}
     ];
     oe=[
-      - damage{a=10*<caster.damage>;pi=true;is=true} @PNO{r=5}
+      - damage{a=15*<caster.damage>;pi=true;is=true} @PNO{r=5}
       - sound{s=entity.wither.break_block;v=0.15;p=0.6} @PNO{r=30}
       - e:ps{color=#c01ef1;a=300;r=5} @origin
    ];
