@@ -29,11 +29,13 @@
 
 819TH1_military_settler_skill2:
   Skills:
+  - setAI{ai=false} @self
   - blockWave{m=RED_WOOL;r=5;d=30;v=0} @selfLocation
   - delay 30
   - e:p{c=#2a2c31;a=200;r=5} @selfLocation
   - sound{s=entity.generic.explode;p=1;v=1} @PIR{r=15}
   - damage{a=2*<caster.damage>;ia=true;ie=true;pi=true;is=true} @PIR{r=5}
+  - setAI{ai=true} @self
 
 819TH1_Cronus_randomskill:
   Skills:
